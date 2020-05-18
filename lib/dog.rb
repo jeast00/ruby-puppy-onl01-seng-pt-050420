@@ -21,7 +21,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.map(&:name)
+    puts @@all.map(&:name)
   end
 
   def save
